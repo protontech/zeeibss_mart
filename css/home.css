@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=La+Belle+Aurore&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  /* transition: all 0.5s ease-in-out; */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    background-color: #4e54c8;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0rem 4rem;
+  
+}
+
+nav li{
+    color: #ffffff
+}
+
+.nav li:hover{
+    background-color:#08080d5b;
+    
+}
+
+nav ul{
+    width: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap :50px;
+}
+
+
+.brand img {
+  width: 150px;
+  height: 90px;
+  /* margin: 0rem 8rem 0rem 0rem; */
+}
+
+.nav2 svg{
+    transform: rotate(250deg);
+}
+
+
+.hero{
+    background-color: #4e54c8;
+    margin-top: 4rem;
+  padding-top: 2rem;
+    width: 100%;
+    height: 88vh;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.hero1{
+    width: 50%;
+    height: 100px;
+    color: #ffffff;
+    /* text-align: center; */
+   
+}
+
+.hero1 h3{
+    font-family: 'La Belle Aurore';
+    font-size: 2rem;
+}
+
+.hero1 p{
+font-family: 'Inika';
+font-size: 1.2rem;
+line-height: 1.8rem
+}
+
+.note-head{
+margin-bottom: 1rem;
+}
+
+
+.hero2{
+    max-width: 50%;
+    width: fit-content;
+    height: 300px;
+    
+}
+
+.hero2 img{
+    width: fit-content;
+    height: 400px;
+   
+}
+
+.what-note{
+    background-color: #ffffff;
+    margin-top: 4rem;
+    padding-top: 2rem;
+      width: 100%;
+      height: 90vh;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: #4e54c8; */
+    width: 100%;
+    height: 500px;
+
+}
+
+.note1{
+width: 50%;
+height: 400px;
+border: solid #000000 2px;
+text-align: center;
+color: #000000;
+}
+
+.note1 h3{
+font-family: 'Inika';
+font-size: 2.5rem;
+}
+
+
+.note1 p{
+    font-family: 'Inika';
+    font-size: 1.5rem;
+    line-height: 2rem;
+    }
+
+
+.note1-body{
+    padding: 1.5rem 2rem 0rem 2rem;
+}
+
+.slideshow{
+    background-color:#4e54c8;
+    margin-top: 4rem;
+    padding-top: 2rem;
+      width: 100%;
+      height: 90vh;
+      
+}
+
+.slide-head{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Inika';
+    font-size: 2rem;
+    
+}
+.slider{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-content{
+    margin: 0 20px;
+}
+
+.slide{
+    width: 220px;
+    border-radius: 25px;
+background-color: #ffffff;
+/* box-shadow: 1px 2px #00000090; */
+}
+
+.image-content,
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.slide-image{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    padding: 3px;
+}
+
+.slide-image .slide-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-content{
+    row-gap: 5px;
+}
+
+.clothe{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.promises{
+    /* background-color: #000; */
+    margin-top: 4rem;
+    padding-top: 2rem;
+      width: 100%;
+      height: 90vh;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    /* background-color: #4e54c8; */
+    padding: 2rem 2rem;
+}
+
+.promise-cards{
+display: flex;
+width: 100%;
+height: 90vh;
+/* background-color: aqua; */
+justify-content: center;
+align-items: center;
+}
+
+.promise{
+    display: block;
+width: 30%;
+height: 65vh;
+background-color: #f5aa14f3;
+margin: 0rem 3rem;
+padding-top: 2rem;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+color: #ffffff;
+}
+
+.promise h3{
+font-family: 'Inika';
+font-size: 2rem;
+}
+
+.intention{
+    width: 30%;
+    height: 65vh;
+background-color: #000;
+margin: 0rem 3rem;
+padding-top: 2rem;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #ffffff;
+}
+
+.intention h3{
+    font-family: 'Inika';
+font-size: 2rem;
+}
+
+.underline{
+    margin: 0.2rem auto;
+    width: 40%;
+    height:10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.card-note{
+    margin-top: 1.5rem;
+    font-family: "Inika";
+    font-size: 1.1rem;
+    line-height: 1.55rem;
+}
