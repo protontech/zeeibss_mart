@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="shortcut icon" href="./img/zeeibss logo.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -12,18 +13,22 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <script src="./js/all.min.js"></script>
+    <script src="https://kit.fontawesome.com/f0d73df0a5.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="./css/all.min.css" />
     <title>Zeeibss Mart</title>
   </head>
   <body>
     <header>
       <nav class="nav">
+
+        <div class="menu-btn-sm">
+          <i class="fa-solid fa-bars" id="menu-btn"></i>
+          <ul class="nav1">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Products</li></a>
+            <a href="#"><li>About</li></a>
+          </ul>
+        </div>
+
         <div class="nav-item1">
           <ul class="nav1">
             <a href="#"><li>Home</li></a>
@@ -84,52 +89,129 @@
         <h3 class="slide-head">FEATURED COLLECTION</h3>
         <div class="slider">
           <div class="slide-container">
-            <div class="slide-content">
-              <div class="slide-wrapper">
-                <div class="slide">
-                  <div class="image-content">
-                    <span class="overlay"></span>
-                    <div class="slide-image">
-                      <img src="./img/clothe 1.png" alt="" class="slide-img" />
-                    </div>
-                  </div>
-                  <div class="slide-content">
-                    <h3 class="clothe">Varga Ball Gown</h3>
-                    <p class="price">₦25,000</p>
+            <div class="slide-wrapper">
+
+              <div class="slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="slide-image">
+                    <img src="./img/clothe 1.png" alt="" class="slide-img" />
                   </div>
                 </div>
+                <div class="slide-content">
+                  <h3 class="clothe">Varga Ball Gown</h3>
+                  <p class="price">₦25,000</p>
+                </div>
               </div>
+
+              <div class="slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="slide-image">
+                    <img src="./img/bag 1.png" alt="" class="slide-img" />
+                  </div>
+                </div>
+                <div class="slide-content">
+                  <h3 class="clothe">Louis Vitton Bag</h3>
+                  <p class="price">₦250,000</p>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="slide-image">
+                    <img src="./img/clothe 2.png" alt="" class="slide-img" />
+                  </div>
+                </div>
+                <div class="slide-content">
+                  <h3 class="clothe">Designer Gown</h3>
+                  <p class="price">₦60,000</p>
+                </div>
+              </div>
+
+
+
+
             </div>
           </div>
         </div>
       </section>
 
       <section class="promises">
-        <div class="container2">
-          <div class="promise-cards">
-            <div class="promise">
-              <h3>OUR PROMISE</h3>
-              <div class="underline"></div>
-              <p class="card-note">
-                Et, quisquam vel aliquam harum eum non consectetur excepturi sit
-                praesentium doloribus ratione quis assumenda Et, quisquam vel
-                aliquam harum eum non consectetur excepturi sit praesentium
-                doloribus ratione quis assumenda
-              </p>
-            </div>
-            <div class="intention">
-              <h3>OUR INTENTION</h3>
-              <div class="underline"></div>
-              <p class="card-note">
-                Et, quisquam vel aliquam harum eum non consectetur excepturi sit
-                praesentium doloribus ratione quis assumenda Et, quisquam vel
-                aliquam harum eum non consectetur excepturi sit praesentium
-                doloribus ratione quis assumenda
-              </p>
-            </div>
+
+        <div class="promise-cards">
+
+          <div class="promise">
+            <h3>OUR PROMISE</h3>
+            <div class="underline"></div>
+            <p class="card-note">
+              Et, quisquam vel aliquam harum eum non consectetur excepturi sit
+              praesentium doloribus ratione quis assumenda Et, quisquam vel
+              aliquam harum eum non consectetur excepturi sit praesentium
+              doloribus ratione quis assumenda
+            </p>
           </div>
+
+          <div class="intention">
+            <h3>OUR INTENTION</h3>
+            <div class="underline"></div>
+            <p class="card-note">
+              Et, quisquam vel aliquam harum eum non consectetur excepturi sit
+              praesentium doloribus ratione quis assumenda Et, quisquam vel
+              aliquam harum eum non consectetur excepturi sit praesentium
+              doloribus ratione quis assumenda
+            </p>
+          </div>
+
         </div>
+
       </section>
     </main>
+    <footer>
+
+      <div class="footer-main-content">
+        <div>
+          <img src="./img/ZEEIBS MART.png" alt="Zeeibs Mart">
+          <address>
+            <p>Address: Trade Fair Complex, FCT</p>
+            <p>Email: zeeibsmart@gmail.com</p>
+            <p>Opening Times: Mon -Fri (9am - 6pm)</p>
+          </address>
+          <ul class="social">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-whatsapp"></i></li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4>Shop</h4>
+          <p>Jeans</p>
+          <p>Bracelet</p>
+          <p>Shoes</p>
+          <p>Gowns</p>
+        </div>
+  
+        <div>
+          <h4>About</h4>
+          <p>Terms and Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+
+      <span>
+        <i class="fa fa-phone"></i>
+        +234 344 3444 51
+      </span>
+      <br>
+      <span>
+        <i class="fa fa-phone"></i>
+        +234 344 3444 51
+      </span>
+
+
+    </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

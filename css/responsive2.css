@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px){
+    .context {
+        padding: 0;
+        z-index: 999;
+    }
+
+    .area {
+        position: fixed;
+    }
+
+}
