@@ -11,7 +11,10 @@ submitBtn.addEventListener('click', (e) => {
         alert("Please enter a username or password")
     } else if((username.value !== storedUsername)||(password.value !== storedPassword)){
         alert("Incorrect username or password")
-    } else {
+    } else if(storedPassword === null || storedUsername === null) {
+        alert("Your account does not exist")
+    }
+    else {
         window.location.pathname = "/index.html"
     }
 })
