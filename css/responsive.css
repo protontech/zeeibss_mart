@@ -71,12 +71,44 @@ footer p{
     color: #ffffff;
 }
 
+.border {
+    border: 1px solid #fff;
+    margin: 0 3rem;
+}
+
+.border ul {
+    list-style-type: circle;
+}
+
+.border li {
+    margin: 10px 0;
+}
+
+.section {
+    height: 45vh;
+}
+
+.section:first-of-type p, .section:first-of-type h1 {
+    margin: 15px 3rem;
+}
+
+.section:first-of-type p {
+    font-size: 20px;
+}
+
 /* Menu Btn styles */
 .menu-btn-sm {
     display: none;
 }
 
 @media screen and (max-width: 768px) {
+    .section{
+        margin: 20rem 0;
+    }
+
+    .border {
+        margin: 0 1rem;
+    }
     .active .nav1 {
         display: block;
         position: absolute;
