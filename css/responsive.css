@@ -36,10 +36,39 @@ footer p{
     margin: 7px 0;
 }
 
+.active-tab {
+    border-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7px;
+}
+
+.nav1 a, .nav1 a:visited, .nav2 a, .nav2 a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .social { 
     display: flex;
     gap: 7px;
     margin: 10px 0;
+    padding: 0;
+}
+
+.social img, footer span img {
+    width: 20px;
+}
+
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+}
+
+.sign-up img {
+    width: 17px;
+    color: #ffffff;
 }
 
 /* Menu Btn styles */
@@ -65,6 +94,10 @@ footer p{
 
     .menu-btn-sm {
         display: flex;
+    }
+
+    .menu-btn-sm li {
+        height: 40px;
     }
     .slideshow {
         height: 65vh;
@@ -124,7 +157,9 @@ footer p{
         width: 90%;
     }
     .footer-main-content {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 10px;
     }
 }
