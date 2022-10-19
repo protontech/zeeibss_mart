@@ -15,6 +15,6 @@ submitBtn.addEventListener('click', (e) => {
         alert("Your account does not exist")
     }
     else {
-        window.location.pathname = "/index.html"
+        window.location.pathname = "/zeeibss_mart/index.html";
     }
 })
